@@ -1,2 +1,0 @@
-extern FILE *pFile2;
-
