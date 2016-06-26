@@ -1,0 +1,187 @@
+sam_view.c:            kputsn(p, q - p, &str); kputc('\n', &str);
+sam_view.c:    kputsn("", 0, &linebuf);
+Coincidencia en el fichero binario bam2bcf.o
+Coincidencia en el fichero binario sample.o
+Coincidencia en el fichero binario test/merge/test_pretty_header
+Coincidencia en el fichero binario test/merge/test_bam_translate
+Coincidencia en el fichero binario test/merge/test_trans_tbl_init
+Coincidencia en el fichero binario test/merge/test_pretty_header.o
+Coincidencia en el fichero binario test/merge/test_rtrans_build.o
+Coincidencia en el fichero binario test/merge/test_rtrans_build
+Coincidencia en el fichero binario test/merge/test_bam_translate.o
+Coincidencia en el fichero binario test/merge/test_trans_tbl_init.o
+Coincidencia en el fichero binario test/vcf-miniview
+Coincidencia en el fichero binario test/split/test_parse_args
+Coincidencia en el fichero binario test/split/test_parse_args.o
+Coincidencia en el fichero binario test/split/test_count_rg
+Coincidencia en el fichero binario test/split/test_count_rg.o
+Coincidencia en el fichero binario test/split/test_expand_format_string
+Coincidencia en el fichero binario test/split/test_filter_header_rg
+Coincidencia en el fichero binario test/split/test_filter_header_rg.o
+Coincidencia en el fichero binario test/split/test_expand_format_string.o
+Coincidencia en el fichero binario misc/ace2sam.o
+Coincidencia en el fichero binario misc/ace2sam
+misc/ace2sam.c:    kputsn(src->s, src->l, dst);
+misc/ace2sam.c:            while (ks_getuntil(ks, '\n', &s, &dret) >= 0 && s.l > 0) kputsn(s.s, s.l, &t[1]); // read the padded consensus sequence
+misc/ace2sam.c:                kputsn(t[0].s, t[0].l, &t[4]); kputs("\t516\t", &t[4]); kputsn(t[0].s, t[0].l, &t[4]); kputs("\t1\t60\t", &t[4]);
+misc/ace2sam.c:                kputs("\t*\t0\t0\t", &t[4]); kputsn(t[2].s, t[2].l, &t[4]); kputs("\t*", &t[4]);
+misc/ace2sam.c:            kputsn(t[0].s, t[0].l, &t[4]); kputc('\t', &t[4]); // RNAME
+misc/ace2sam.c:            kputsn(t[3].s, t[3].l, &t[4]); // unpadded SEQ
+Coincidencia en el fichero binario sam_view.o
+Coincidencia en el fichero binario bam_sort.o
+sam_view.c~:            kputsn(p, q - p, &str); kputc('\n', &str);
+sam_view.c~:    kputsn("", 0, &linebuf);
+htslib-1.2.1/vcfutils.c:                    kputsn(ss,se-ss,&str);
+htslib-1.2.1/vcfutils.c:                        kputsn(ss,se-ss,&str);
+htslib-1.2.1/vcfutils.c:                        kputsn(ss,ptr-ss,&str);
+htslib-1.2.1/vcfutils.c:                                kputsn(ss,ptr-ss,&str);
+htslib-1.2.1/vcfutils.c:                            kputsn(ss,ptr-ss,&str);
+htslib-1.2.1/kstring.c:		kputsn(p, aux.p - p, s);
+htslib-1.2.1/synced_bcf_reader.c:                kputsn(prev, tmp-prev, &str);
+htslib-1.2.1/synced_bcf_reader.c:        kputsn(sp,ep-sp,&tmp);
+htslib-1.2.1/synced_bcf_reader.c:            kputsn(ss,se-ss,&reg->als_str);
+htslib-1.2.1/synced_bcf_reader.c:        kputsn(ss,se-ss,&reg->als_str);
+Coincidencia en el fichero binario htslib-1.2.1/vcf.o
+Coincidencia en el fichero binario htslib-1.2.1/hts.o
+htslib-1.2.1/regidx.c:    kputsn(chr_from, chr_to-chr_from+1, &idx->str);
+htslib-1.2.1/sam.c:            kputsn(fp->line.s, fp->line.l, &str);
+htslib-1.2.1/sam.c:        if (str.l == 0) kputsn("", 0, &str);
+htslib-1.2.1/sam.c:                kputsn("@SQ\tSN:", 7, &fp->line); kputs(h->target_name[i], &fp->line);
+htslib-1.2.1/sam.c:                kputsn("\tLN:", 4, &fp->line); kputw(h->target_len[i], &fp->line); kputc('\n', &fp->line);
+htslib-1.2.1/sam.c:    kputsn_(q, p - q, &str);
+htslib-1.2.1/sam.c:        kputsn_(q, 2, &str);
+htslib-1.2.1/sam.c:                    kputc_('s', &str); kputsn_((char*)&y, 2, &str);
+htslib-1.2.1/sam.c:                    kputc_('i', &str); kputsn_(&y, 4, &str);
+htslib-1.2.1/sam.c:                    kputc_('S', &str); kputsn_(&y, 2, &str);
+htslib-1.2.1/sam.c:                    kputc_('I', &str); kputsn_(&y, 4, &str);
+htslib-1.2.1/sam.c:            kputc_('f', &str); kputsn_(&x, 4, &str);
+htslib-1.2.1/sam.c:            kputc_('d', &str); kputsn_(&x, 8, &str);
+htslib-1.2.1/sam.c:            kputc_(type, &str);kputsn_(q, p - q, &str); // note that this include the trailing NULL
+htslib-1.2.1/sam.c:            kputc_('B', &str); kputc_(type, &str); kputsn_(&n, 4, &str);
+htslib-1.2.1/sam.c:            // FIXME: to evaluate which is faster: a) aligned array and then memmove(); b) unaligned array; c) kputsn_()
+htslib-1.2.1/sam.c:            else if (type == 's') while (q + 1 < p) { int16_t  x = strtol(q + 1, &q, 0); kputsn_(&x, 2, &str); }
+htslib-1.2.1/sam.c:            else if (type == 'S') while (q + 1 < p) { uint16_t x = strtoul(q + 1, &q, 0); kputsn_(&x, 2, &str); }
+htslib-1.2.1/sam.c:            else if (type == 'i') while (q + 1 < p) { int32_t  x = strtol(q + 1, &q, 0); kputsn_(&x, 4, &str); }
+htslib-1.2.1/sam.c:            else if (type == 'I') while (q + 1 < p) { uint32_t x = strtoul(q + 1, &q, 0); kputsn_(&x, 4, &str); }
+htslib-1.2.1/sam.c:            else if (type == 'f') while (q + 1 < p) { float    x = strtod(q + 1, &q);    kputsn_(&x, 4, &str); }
+htslib-1.2.1/sam.c:    kputsn(bam_get_qname(b), c->l_qname-1, str); printf("\n\nquery name1: %s\n\n", str->s); kputc('\t', str); // query name
+htslib-1.2.1/sam.c:    } else kputsn("*\t", 2, str);
+htslib-1.2.1/sam.c:    if (c->mtid < 0) kputsn("*\t", 2, str); // mate chr
+htslib-1.2.1/sam.c:    else if (c->mtid == c->tid) kputsn("=\t", 2, str);
+htslib-1.2.1/sam.c:    } else kputsn("*\t*", 3, str);
+htslib-1.2.1/sam.c:        kputc('\t', str); kputsn((char*)key, 2, str); kputc(':', str);
+htslib-1.2.1/sam.c:            kputsn("A:", 2, str);
+htslib-1.2.1/sam.c:            kputsn("i:", 2, str);
+htslib-1.2.1/sam.c:            kputsn("i:", 2, str);
+htslib-1.2.1/sam.c:                kputsn("i:", 2, str);
+htslib-1.2.1/sam.c:                kputsn("i:", 2, str);
+htslib-1.2.1/sam.c:                kputsn("i:", 2, str);
+htslib-1.2.1/sam.c:                kputsn("i:", 2, str);
+htslib-1.2.1/sam.c:            kputsn("B:", 2, str); kputc(sub_type, str); // write the typing
+htslib-1.2.1/sam.c:    if ( str.l == 0 ) kputsn("", 0, &str);
+Coincidencia en el fichero binario htslib-1.2.1/libhts.a
+htslib-1.2.1/htslib/kstring.h:static inline int kputsn(const char *p, int l, kstring_t *s)
+htslib-1.2.1/htslib/kstring.h:	return kputsn(p, strlen(p), s);
+htslib-1.2.1/htslib/kstring.h:static inline int kputsn_(const void *p, int l, kstring_t *s)
+htslib-1.2.1/htslib/vcf.h:                kputsn((char*)&x, 4, s);
+htslib-1.2.1/htslib/vcf.h:                kputsn((char*)&x, 2, s);
+htslib-1.2.1/htslib/vcf.h:        kputsn((char*)&z, 2, s);
+htslib-1.2.1/htslib/vcf.h:        kputsn((char*)&z, 4, s);
+Coincidencia en el fichero binario htslib-1.2.1/sam.o
+Coincidencia en el fichero binario htslib-1.2.1/synced_bcf_reader.o
+Coincidencia en el fichero binario htslib-1.2.1/regidx.o
+Coincidencia en el fichero binario htslib-1.2.1/vcfutils.o
+htslib-1.2.1/vcf.c:            kputsn(line,q-line,&tmp);
+htslib-1.2.1/vcf.c:        kputsn_(info->vptr - info->vptr_off, info->vptr_len + info->vptr_off, str);
+htslib-1.2.1/vcf.c:            kputsn_(ptr_ori, line->unpack_size[0], &tmp);
+htslib-1.2.1/vcf.c:            kputsn_(ptr_ori, line->unpack_size[1], &tmp);
+htslib-1.2.1/vcf.c:                kputsn_(ptr_ori, line->unpack_size[2], &tmp);
+htslib-1.2.1/vcf.c:        if ( size ) kputsn_(ptr_ori, size, &tmp);
+htslib-1.2.1/vcf.c:            kputsn_(fmt->p - fmt->p_off, fmt->p_len + fmt->p_off, &tmp);
+htslib-1.2.1/vcf.c:                kputsn(">\n", 2, &txt);
+htslib-1.2.1/vcf.c:        kputsn(s->s, s->l, &txt);
+htslib-1.2.1/vcf.c:                kputsn((char*)&x, 2, s);
+htslib-1.2.1/vcf.c:                kputsn((char*)&x, 4, s);
+htslib-1.2.1/vcf.c:    kputsn((char*)a, n << 2, s);
+htslib-1.2.1/vcf.c:    kputsn(a, l, s);
+htslib-1.2.1/vcf.c:        kputsn((char*)&zero, l, s);
+htslib-1.2.1/vcf.c:                kputsn((char*)z->buf, z->size * v->n_sample, str);
+htslib-1.2.1/vcf.c:                kputsn((char*)z->buf, z->size * v->n_sample, str);
+htslib-1.2.1/vcf.c:            kputsn((char*)info->vptr, info->vptr_len, &str);
+htslib-1.2.1/vcf.c:            kputsn((char*)fmt->p, fmt->p_len, &str);
+htslib-1.2.1/vcf.c:        kputsn(htxt, p - htxt, &str);
+htslib-1.2.1/vcf.c:    } else kputsn(htxt, hlen, &str);
+htslib-1.2.1/vcf.c:                if (imap[j] >= 0) kputsn((char*)(f->p + imap[j] * f->size), f->size, &ind);
+htslib-1.2.1/vcf.c:        kputsn((char*)values, nps*line->n_sample*sizeof(float), &str);
+htslib-1.2.1/vcf.c:        kputsn((char*)values, nps*line->n_sample, &str);
+htslib-1.2.1/cram/cram_index.c:	kputsn(buf, len, &kstr);
+htslib-1.2.1/cram/cram_index.c:	kputsn("", 0, &kstr); // ensure kstr.s is NUL-terminated
+Coincidencia en el fichero binario htslib-1.2.1/cram/sam_header.o
+htslib-1.2.1/cram/sam_header.c:    if (EOF == kputsn(lines, len, &sh->text))
+htslib-1.2.1/cram/sam_header.c:    if (EOF == kputsn(type, 2, &sh->text))
+htslib-1.2.1/cram/sam_header.c:	r |= (kputsn(tag->str, tag->len, &ks) == EOF);
+htslib-1.2.1/cram/sam_header.c:	    if (EOF == kputsn_(tag->str, tag->len, &ks))
+htslib-1.2.1/cram/sam_header.c:	    if (EOF == kputsn_(c, 2, &ks))
+htslib-1.2.1/cram/sam_header.c:		if (EOF == kputsn_(tag->str, tag->len, &ks))
+Coincidencia en el fichero binario htslib-1.2.1/cram/cram_index.o
+htslib-1.2.1/sam.c~:            kputsn(fp->line.s, fp->line.l, &str);
+htslib-1.2.1/sam.c~:        if (str.l == 0) kputsn("", 0, &str);
+htslib-1.2.1/sam.c~:                kputsn("@SQ\tSN:", 7, &fp->line); kputs(h->target_name[i], &fp->line);
+htslib-1.2.1/sam.c~:                kputsn("\tLN:", 4, &fp->line); kputw(h->target_len[i], &fp->line); kputc('\n', &fp->line);
+htslib-1.2.1/sam.c~:    kputsn_(q, p - q, &str);
+htslib-1.2.1/sam.c~:        kputsn_(q, 2, &str);
+htslib-1.2.1/sam.c~:                    kputc_('s', &str); kputsn_((char*)&y, 2, &str);
+htslib-1.2.1/sam.c~:                    kputc_('i', &str); kputsn_(&y, 4, &str);
+htslib-1.2.1/sam.c~:                    kputc_('S', &str); kputsn_(&y, 2, &str);
+htslib-1.2.1/sam.c~:                    kputc_('I', &str); kputsn_(&y, 4, &str);
+htslib-1.2.1/sam.c~:            kputc_('f', &str); kputsn_(&x, 4, &str);
+htslib-1.2.1/sam.c~:            kputc_('d', &str); kputsn_(&x, 8, &str);
+htslib-1.2.1/sam.c~:            kputc_(type, &str);kputsn_(q, p - q, &str); // note that this include the trailing NULL
+htslib-1.2.1/sam.c~:            kputc_('B', &str); kputc_(type, &str); kputsn_(&n, 4, &str);
+htslib-1.2.1/sam.c~:            // FIXME: to evaluate which is faster: a) aligned array and then memmove(); b) unaligned array; c) kputsn_()
+htslib-1.2.1/sam.c~:            else if (type == 's') while (q + 1 < p) { int16_t  x = strtol(q + 1, &q, 0); kputsn_(&x, 2, &str); }
+htslib-1.2.1/sam.c~:            else if (type == 'S') while (q + 1 < p) { uint16_t x = strtoul(q + 1, &q, 0); kputsn_(&x, 2, &str); }
+htslib-1.2.1/sam.c~:            else if (type == 'i') while (q + 1 < p) { int32_t  x = strtol(q + 1, &q, 0); kputsn_(&x, 4, &str); }
+htslib-1.2.1/sam.c~:            else if (type == 'I') while (q + 1 < p) { uint32_t x = strtoul(q + 1, &q, 0); kputsn_(&x, 4, &str); }
+htslib-1.2.1/sam.c~:            else if (type == 'f') while (q + 1 < p) { float    x = strtod(q + 1, &q);    kputsn_(&x, 4, &str); }
+htslib-1.2.1/sam.c~:    kputsn(bam_get_qname(b), c->l_qname-1, str); kputc('\t', str); // query name
+htslib-1.2.1/sam.c~:    } else kputsn("*\t", 2, str);
+htslib-1.2.1/sam.c~:    if (c->mtid < 0) kputsn("*\t", 2, str); // mate chr
+htslib-1.2.1/sam.c~:    else if (c->mtid == c->tid) kputsn("=\t", 2, str);
+htslib-1.2.1/sam.c~:    } else kputsn("*\t*", 3, str);
+htslib-1.2.1/sam.c~:        kputc('\t', str); kputsn((char*)key, 2, str); kputc(':', str);
+htslib-1.2.1/sam.c~:            kputsn("A:", 2, str);
+htslib-1.2.1/sam.c~:            kputsn("i:", 2, str);
+htslib-1.2.1/sam.c~:            kputsn("i:", 2, str);
+htslib-1.2.1/sam.c~:                kputsn("i:", 2, str);
+htslib-1.2.1/sam.c~:                kputsn("i:", 2, str);
+htslib-1.2.1/sam.c~:                kputsn("i:", 2, str);
+htslib-1.2.1/sam.c~:                kputsn("i:", 2, str);
+htslib-1.2.1/sam.c~:            kputsn("B:", 2, str); kputc(sub_type, str); // write the typing
+htslib-1.2.1/sam.c~:    if ( str.l == 0 ) kputsn("", 0, &str);
+Coincidencia en el fichero binario samtools
+bam_split.c:        kputsn(pointer, next-pointer, &str);
+bam_split.c:    kputsn(hdr->text, hdr->l_text, &input);
+bam_split.c:        kputsn(begin+matches[1].rm_so, matches[1].rm_eo-matches[1].rm_so, &str);
+bam_split.c:        kputsn(header, matches[0].rm_so, &str); // copy header up until the found RG line
+bam_split.c:        kputsn(header+matches[1].rm_so, matches[1].rm_eo-matches[1].rm_so, &found_id); // extract ID
+bam_split.c:            kputsn(header+matches[0].rm_so, (matches[0].rm_eo+1)-matches[0].rm_so, &str);
+Coincidencia en el fichero binario bam_split.o
+bam_sort.c:    kputsn(out->text, out_len, &out_text);
+bam_sort.c:            kputsn(translate->text+matches[0].rm_so, matches[0].rm_eo-matches[0].rm_so, &out_text);
+bam_sort.c:        kputsn(text+matches[1].rm_so, matches[1].rm_eo-matches[1].rm_so, &match_id);
+bam_sort.c:            kputsn(text+matches[0].rm_so, matches[0].rm_eo-matches[0].rm_so, &transformed_line);
+bam_sort.c:            kputsn(text+matches[0].rm_so, matches[1].rm_so-matches[0].rm_so, &transformed_line);
+bam_sort.c:            kputsn(text+matches[1].rm_eo, matches[0].rm_eo-matches[1].rm_eo, &transformed_line);
+bam_sort.c:        kputsn(text+matches[1].rm_so, matches[1].rm_eo-matches[1].rm_so, &match_id);
+bam_sort.c:            kputsn(text+matches[0].rm_so, matches[0].rm_eo-matches[0].rm_so, &transformed_line);
+bam_sort.c:            kputsn(text+matches[0].rm_so, matches[1].rm_so-matches[0].rm_so, &transformed_line);
+bam_sort.c:            kputsn(text+matches[1].rm_eo, matches[0].rm_eo-matches[1].rm_eo, &transformed_line);
+bam_sort.c:            kputsn(data+matches[1].rm_so, matches[1].rm_eo-matches[1].rm_so, &pp_id);
+bam_sort.c:            kputsn(data, matches[1].rm_so-matches[0].rm_so, &transformed_line);
+bam_sort.c:            kputsn(data+matches[1].rm_eo, matches[0].rm_eo-matches[1].rm_eo, &transformed_line);
+bam_sort.c:        kputsn(transformed_line.s, transformed_line.l, &out_text);
+bam_sort.c:            kputsn(data+matches[1].rm_so, matches[1].rm_eo-matches[1].rm_so, &pg_id);
+bam_sort.c:            kputsn(data, matches[1].rm_so-matches[0].rm_so, &transformed_line);
+bam_sort.c:            kputsn(data+matches[1].rm_eo, matches[0].rm_eo-matches[1].rm_eo, &transformed_line);
+bam_sort.c:        kputsn(transformed_line.s, transformed_line.l, &out_text);

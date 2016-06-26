@@ -1,0 +1,82 @@
+Coincidencia en el fichero binario bam_plbuf.o
+Coincidencia en el fichero binario bam_lpileup.o
+Coincidencia en el fichero binario bam2bcf.o
+Coincidencia en el fichero binario test/merge/test_pretty_header
+Coincidencia en el fichero binario test/merge/test_bam_translate
+Coincidencia en el fichero binario test/merge/test_trans_tbl_init
+Coincidencia en el fichero binario test/merge/test_pretty_header.o
+Coincidencia en el fichero binario test/merge/test_rtrans_build.o
+Coincidencia en el fichero binario test/merge/test_rtrans_build
+Coincidencia en el fichero binario test/merge/test_bam_translate.o
+Coincidencia en el fichero binario test/merge/test_trans_tbl_init.o
+Coincidencia en el fichero binario test/vcf-miniview
+Coincidencia en el fichero binario test/split/test_parse_args
+Coincidencia en el fichero binario test/split/test_parse_args.o
+Coincidencia en el fichero binario test/split/test_count_rg
+Coincidencia en el fichero binario test/split/test_count_rg.o
+Coincidencia en el fichero binario test/split/test_expand_format_string
+Coincidencia en el fichero binario test/split/test_filter_header_rg
+Coincidencia en el fichero binario test/split/test_filter_header_rg.o
+Coincidencia en el fichero binario test/split/test_expand_format_string.o
+Coincidencia en el fichero binario bamshuf.o
+Coincidencia en el fichero binario bam.o
+Coincidencia en el fichero binario stats.o
+Coincidencia en el fichero binario phase.o
+Coincidencia en el fichero binario sam_view.o
+Coincidencia en el fichero binario bam_sort.o
+Coincidencia en el fichero binario bam_rmdupse.o
+ChangeLog.old: * rename baf1_core_t as bam1_core_t
+bam_md.c:    bam1_core_t *c = &b->core;
+bam_md.c:    bam1_core_t *c = &b->core;
+bam_md.c:    bam1_core_t *c = &b->core;
+Coincidencia en el fichero binario bam_mate.o
+Coincidencia en el fichero binario padding.o
+Coincidencia en el fichero binario libbam.a
+Coincidencia en el fichero binario bam_tview.o
+Coincidencia en el fichero binario htslib-1.2.1/hts.o
+htslib-1.2.1/sam.c:static void swap_data(const bam1_core_t *c, int l_data, uint8_t *data, int is_host)
+htslib-1.2.1/sam.c:    bam1_core_t *c = &b->core;
+htslib-1.2.1/sam.c:    const bam1_core_t *c = &b->core;
+htslib-1.2.1/sam.c:    bam1_core_t *c = &b->core;
+htslib-1.2.1/sam.c:    // Note that (like the bam1_core_t fields) this aux data in b->data is
+htslib-1.2.1/sam.c:    const bam1_core_t *c = &b->core;
+htslib-1.2.1/sam.c:    bam1_core_t *c = &b->core;
+Coincidencia en el fichero binario htslib-1.2.1/libhts.a
+htslib-1.2.1/htslib/sam.h:} bam1_core_t;
+htslib-1.2.1/htslib/sam.h:    bam1_core_t core;
+Coincidencia en el fichero binario htslib-1.2.1/sam.o
+Coincidencia en el fichero binario htslib-1.2.1/cram/cram_samtools.o
+Coincidencia en el fichero binario htslib-1.2.1/cram/cram_io.o
+Coincidencia en el fichero binario htslib-1.2.1/cram/cram_encode.o
+Coincidencia en el fichero binario htslib-1.2.1/cram/cram_decode.o
+Coincidencia en el fichero binario htslib-1.2.1/cram/cram_stats.o
+Coincidencia en el fichero binario htslib-1.2.1/cram/cram_index.o
+htslib-1.2.1/sam.c~:static void swap_data(const bam1_core_t *c, int l_data, uint8_t *data, int is_host)
+htslib-1.2.1/sam.c~:    bam1_core_t *c = &b->core;
+htslib-1.2.1/sam.c~:    const bam1_core_t *c = &b->core;
+htslib-1.2.1/sam.c~:    bam1_core_t *c = &b->core;
+htslib-1.2.1/sam.c~:    // Note that (like the bam1_core_t fields) this aux data in b->data is
+htslib-1.2.1/sam.c~:    const bam1_core_t *c = &b->core;
+htslib-1.2.1/sam.c~:    bam1_core_t *c = &b->core;
+Coincidencia en el fichero binario bam_rmdup.o
+bam_rmdup.c:        bam1_core_t *c = &b->core;
+Coincidencia en el fichero binario bam2depth.o
+Coincidencia en el fichero binario cut_target.o
+Coincidencia en el fichero binario bam_stat.o
+Coincidencia en el fichero binario samtools
+Coincidencia en el fichero binario bam_plcmd.o
+Coincidencia en el fichero binario bedcov.o
+bam_stat.c:    bam1_core_t *c;
+Coincidencia en el fichero binario bam_color.o
+Coincidencia en el fichero binario sam.o
+bam_rmdupse.c:        bam1_core_t *c = &b->core;
+Coincidencia en el fichero binario bam_aux.o
+Coincidencia en el fichero binario bam2bcf_indel.o
+bam2bcf_indel.c:static int tpos2qpos(const bam1_core_t *c, const uint32_t *cigar, int32_t tpos, int is_left, int32_t *_tpos)
+Coincidencia en el fichero binario bam_split.o
+bam.h:// typedef struct { ... } bam1_core_t;
+bam.h:      @param  c      pointer to the bam1_core_t structure
+bam.h:    static inline uint32_t bam_calend(const bam1_core_t *c, const uint32_t *cigar) { return c->pos + (c->n_cigar? bam_cigar2rlen(c->n_cigar, cigar) : 1); }
+bam.h:      @param  c      pointer to the bam1_core_t structure
+bam.h:    static inline int32_t samtools_bam_cigar2qlen(const bam1_core_t *c, const uint32_t *cigar) { return bam_cigar2qlen(c->n_cigar, cigar); }
+Coincidencia en el fichero binario bam_md.o

@@ -1,0 +1,57 @@
+htslib-1.2.1/test/test_view.c:    bam_hdr_t *h;
+htslib-1.2.1/test/fieldarith.c:    bam_hdr_t *header;
+htslib-1.2.1/test/sam.c:    bam_hdr_t *header = sam_hdr_read(in);
+htslib-1.2.1/sam.c:bam_hdr_t *bam_hdr_init()
+htslib-1.2.1/sam.c:    return (bam_hdr_t*)calloc(1, sizeof(bam_hdr_t));
+htslib-1.2.1/sam.c:void bam_hdr_destroy(bam_hdr_t *h)
+htslib-1.2.1/sam.c:bam_hdr_t *bam_hdr_dup(const bam_hdr_t *h0)
+htslib-1.2.1/sam.c:    bam_hdr_t *h;
+htslib-1.2.1/sam.c:static bam_hdr_t *hdr_from_dict(sdict_t *d)
+htslib-1.2.1/sam.c:    bam_hdr_t *h;
+htslib-1.2.1/sam.c:bam_hdr_t *bam_hdr_read(BGZF *fp)
+htslib-1.2.1/sam.c:    bam_hdr_t *h;
+htslib-1.2.1/sam.c:int bam_hdr_write(BGZF *fp, const bam_hdr_t *h)
+htslib-1.2.1/sam.c:int bam_name2id(bam_hdr_t *h, const char *ref)
+htslib-1.2.1/sam.c:    bam_hdr_t *h;
+htslib-1.2.1/sam.c:hts_itr_t *sam_itr_querys(const hts_idx_t *idx, bam_hdr_t *hdr, const char *region)
+htslib-1.2.1/sam.c:bam_hdr_t *sam_hdr_parse(int l_text, const char *text)
+htslib-1.2.1/sam.c:bam_hdr_t *sam_hdr_read(htsFile *fp)
+htslib-1.2.1/sam.c:        bam_hdr_t *h;
+htslib-1.2.1/sam.c:int sam_hdr_write(htsFile *fp, const bam_hdr_t *h)
+htslib-1.2.1/sam.c:        if (cram_set_header(fd, bam_header_to_cram((bam_hdr_t *)h)) < 0) return -1;
+htslib-1.2.1/sam.c:int sam_parse1(kstring_t *s, bam_hdr_t *h, bam1_t *b)
+htslib-1.2.1/sam.c:int sam_read1(htsFile *fp, bam_hdr_t *h, bam1_t *b)
+htslib-1.2.1/sam.c:int sam_format1(const bam_hdr_t *h, const bam1_t *b, kstring_t *str)
+htslib-1.2.1/sam.c:int sam_write1(htsFile *fp, const bam_hdr_t *h, const bam1_t *b)
+Coincidencia en el fichero binario htslib-1.2.1/libhts.a
+htslib-1.2.1/htslib/sam.h:} bam_hdr_t;
+htslib-1.2.1/htslib/sam.h: @field  tid     chromosome ID, defined by bam_hdr_t
+htslib-1.2.1/htslib/sam.h: @field  mtid    chromosome ID of next read in template, defined by bam_hdr_t
+htslib-1.2.1/htslib/sam.h:    bam_hdr_t *bam_hdr_init(void);
+htslib-1.2.1/htslib/sam.h:    bam_hdr_t *bam_hdr_read(BGZF *fp);
+htslib-1.2.1/htslib/sam.h:    int bam_hdr_write(BGZF *fp, const bam_hdr_t *h);
+htslib-1.2.1/htslib/sam.h:    void bam_hdr_destroy(bam_hdr_t *h);
+htslib-1.2.1/htslib/sam.h:    int bam_name2id(bam_hdr_t *h, const char *ref);
+htslib-1.2.1/htslib/sam.h:    bam_hdr_t* bam_hdr_dup(const bam_hdr_t *h0);
+htslib-1.2.1/htslib/sam.h:    hts_itr_t *sam_itr_querys(const hts_idx_t *idx, bam_hdr_t *hdr, const char *region);
+htslib-1.2.1/htslib/sam.h:    bam_hdr_t *sam_hdr_parse(int l_text, const char *text);
+htslib-1.2.1/htslib/sam.h:    bam_hdr_t *sam_hdr_read(samFile *fp);
+htslib-1.2.1/htslib/sam.h:    int sam_hdr_write(samFile *fp, const bam_hdr_t *h);
+htslib-1.2.1/htslib/sam.h:    int sam_parse1(kstring_t *s, bam_hdr_t *h, bam1_t *b);
+htslib-1.2.1/htslib/sam.h:    int sam_format1(const bam_hdr_t *h, const bam1_t *b, kstring_t *str);
+htslib-1.2.1/htslib/sam.h:    int sam_read1(samFile *fp, bam_hdr_t *h, bam1_t *b);
+htslib-1.2.1/htslib/sam.h:    int sam_write1(samFile *fp, const bam_hdr_t *h, const bam1_t *b);
+Coincidencia en el fichero binario htslib-1.2.1/sam.o
+htslib-1.2.1/htsfile.c:    bam_hdr_t *hdr = sam_hdr_read(in);
+Coincidencia en el fichero binario htslib-1.2.1/cram/cram_samtools.o
+htslib-1.2.1/cram/cram_samtools.c:bam_hdr_t *cram_header_to_bam(SAM_hdr *h) {
+htslib-1.2.1/cram/cram_samtools.c:    bam_hdr_t *header = bam_hdr_init();
+htslib-1.2.1/cram/cram_samtools.c:SAM_hdr *bam_header_to_cram(bam_hdr_t *h) {
+htslib-1.2.1/cram/cram_samtools.h:bam_hdr_t *cram_header_to_bam(SAM_hdr *h);
+htslib-1.2.1/cram/cram_samtools.h:SAM_hdr *bam_header_to_cram(bam_hdr_t *h);
+htslib-1.2.1/sam.c:        if (cram_set_header(fd, bam_header_to_cram((bam_hdr_t *)h)) < 0) return -1;
+Coincidencia en el fichero binario htslib-1.2.1/libhts.a
+Coincidencia en el fichero binario htslib-1.2.1/sam.o
+Coincidencia en el fichero binario htslib-1.2.1/cram/cram_samtools.o
+htslib-1.2.1/cram/cram_samtools.c:SAM_hdr *bam_header_to_cram(bam_hdr_t *h) {
+htslib-1.2.1/cram/cram_samtools.h:SAM_hdr *bam_header_to_cram(bam_hdr_t *h);
