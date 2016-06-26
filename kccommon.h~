@@ -1,4 +1,0 @@
-extern FILE *pFile1;
-extern FILE *pFile2;
-extern char file1[1024];
-extern char file2[1024];
